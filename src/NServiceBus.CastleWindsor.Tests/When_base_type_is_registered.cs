@@ -1,6 +1,6 @@
-using NServiceBus;
-using NServiceBus.ContainerTests;
-using NServiceBus.ObjectBuilder.CastleWindsor;
+using NServiceBus_6;
+using NServiceBus_6.ContainerTests;
+using NServiceBus_6.ObjectBuilder.CastleWindsor;
 using NUnit.Framework;
 using System.Linq;
 

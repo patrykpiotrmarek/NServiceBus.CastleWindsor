@@ -1,6 +1,6 @@
-namespace NServiceBus.ContainerTests
+namespace NServiceBus_6.ContainerTests
 {
-    using NServiceBus;
+    using NServiceBus_6;
     using ObjectBuilder.Common;
     using NUnit.Framework;
 

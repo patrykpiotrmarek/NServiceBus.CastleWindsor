@@ -1,4 +1,4 @@
-namespace NServiceBus.ContainerTests
+namespace NServiceBus_6.ContainerTests
 {
     using System;
     using NUnit.Framework;

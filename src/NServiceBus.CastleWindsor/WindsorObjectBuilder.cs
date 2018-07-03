@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.ObjectBuilder.CastleWindsor
+﻿namespace NServiceBus_6.ObjectBuilder.CastleWindsor
 {
     using System;
     using System.Collections.Generic;

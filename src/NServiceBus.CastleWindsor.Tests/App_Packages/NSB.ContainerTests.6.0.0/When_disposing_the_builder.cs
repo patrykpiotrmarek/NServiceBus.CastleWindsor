@@ -1,8 +1,8 @@
-namespace NServiceBus.ContainerTests
+namespace NServiceBus_6.ContainerTests
 {
     using System;
     using System.Diagnostics;
-    using NServiceBus;
+    using NServiceBus_6;
     using NUnit.Framework;
 
     [TestFixture]

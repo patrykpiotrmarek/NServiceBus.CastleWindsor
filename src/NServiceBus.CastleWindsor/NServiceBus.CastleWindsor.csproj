@@ -9,8 +9,8 @@
     <ProjectGuid>{9A9A0BD5-AC37-4B90-B90F-FD1C1395FEBD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NServiceBus.ObjectBuilder.CastleWindsor</RootNamespace>
-    <AssemblyName>NServiceBus.ObjectBuilder.CastleWindsor</AssemblyName>
+    <RootNamespace>NServiceBus_6.ObjectBuilder.CastleWindsor</RootNamespace>
+    <AssemblyName>NServiceBus_6.ObjectBuilder.CastleWindsor</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SignAssembly>true</SignAssembly>
@@ -28,11 +28,11 @@
     <DefineConstants>TRACE;DEBUG</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>..\..\binaries\NServiceBus.ObjectBuilder.CastleWindsor.xml</DocumentationFile>
+    <DocumentationFile>..\..\binaries\NServiceBus_6.ObjectBuilder.CastleWindsor.xml</DocumentationFile>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
     <NoWarn>
     </NoWarn>
-    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -42,11 +42,11 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>..\..\binaries\NServiceBus.ObjectBuilder.CastleWindsor.xml</DocumentationFile>
+    <DocumentationFile>..\..\binaries\NServiceBus_6.ObjectBuilder.CastleWindsor.xml</DocumentationFile>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
     <NoWarn>
     </NoWarn>
-    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
@@ -61,8 +61,8 @@
       <HintPath>..\packages\Janitor.Fody.1.2.1.0\lib\dotnet\Janitor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="NServiceBus.Core, Version=6.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c, processorArchitecture=MSIL">
-      <HintPath>..\packages\NServiceBus.6.0.0\lib\net452\NServiceBus.Core.dll</HintPath>
+    <Reference Include="NServiceBus_6.Core, Version=6.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NServiceBus_6.6.4.4\lib\net452\NServiceBus_6.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Obsolete">

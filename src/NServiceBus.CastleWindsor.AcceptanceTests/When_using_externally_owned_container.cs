@@ -1,11 +1,11 @@
-﻿namespace NServiceBus.CastleWindsor.AcceptanceTests
+﻿namespace NServiceBus_6.CastleWindsor.AcceptanceTests
 {
     using System.Threading.Tasks;
     using Castle.Windsor;
-    using NServiceBus;
+    using NServiceBus_6;
     using AcceptanceTesting;
-    using NServiceBus.AcceptanceTests;
-    using NServiceBus.AcceptanceTests.EndpointTemplates;
+    using NServiceBus_6.AcceptanceTests;
+    using NServiceBus_6.AcceptanceTests.EndpointTemplates;
     using NUnit.Framework;
 
     public class When_using_externally_owned_container : NServiceBusAcceptanceTest

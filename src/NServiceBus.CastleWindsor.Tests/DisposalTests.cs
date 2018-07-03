@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.CastleWindsor.Tests
+﻿namespace NServiceBus_6.CastleWindsor.Tests
 {
     using System;
     using System.Collections;
